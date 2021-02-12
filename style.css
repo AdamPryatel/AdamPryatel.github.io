@@ -9,12 +9,14 @@
 body{
     font-size: 16px;
     margin-top: 3em;
+    background-color: #000;
+    color: #ADD8E6;
 }
 
 h1,
 h2,
 h3{
-    color: #666;
+    color:  #39FF14;
 }
 
 header,
@@ -34,7 +36,7 @@ header h1{
 
 header span{
     font-size: 1.5em;
-    color: #999;
+    color: #ADD8E6;
 }
 
 nav{
@@ -47,18 +49,36 @@ nav{
     flex-flow: row;
     justify-content: center;
 
-    background: #333;
+    background: #39FF14;
 }
 
 nav a{
     padding: .5em 2em;
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 nav a:hover{
-    background: #999;
-    color: #333;
+    background: #000;
+    color: #fff;
+}
+
+#myAbout{
+    background-color: #2E1A47;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+#myProjects{
+    background-color: #2E1A47;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}
+
+#myContact{
+    background-color: #2E1A47;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
 }
 
 section{
@@ -84,20 +104,19 @@ section ul{
 }
 
 #projects article{
-    background: #ccc;
+    background: #808080;
     padding: 1em;
 }
 
 #projects article img{
-    width: 100%
-    border: 1px solid #333;
+    width: 100%;
+    border: 1px solid #000;
 }
 
 footer{
     margin-top: 2em;
     margin-bottom: 1em;
-    background: #666;
-    color: #fff;
+    background: #2E1A47;
     padding: 1em 0;
     text-align: center;
 }
