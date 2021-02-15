@@ -65,17 +65,17 @@ header img{
     grid-area: middle;
     background-color: #2E1A47;
     border-radius: 15px 15px 15px 15px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-.mySkills p { 
-    margin: 1.5em;
-} 
+.mySkills ul{
+    padding-left: 2%;
+}
 
 #skills{
     margin: 1.5em;
 }
-
 
 .mySkills h3
 .myProjects h3 {
@@ -105,13 +105,11 @@ header img{
     margin: 1.5em;
 }
 
-ul{
+li{
     list-style: none;
 }
 
 .articles{
-    display: flex;
-    flex-wrap: wrap;
     background-color: #2E1A47;
     border-radius: 0 0 15px 15px;
 }
