@@ -38,6 +38,8 @@ header{
 
 header img{
     border-radius: 180px;
+    max-width: 100%;
+    height: auto;
 }
 
   .container {
