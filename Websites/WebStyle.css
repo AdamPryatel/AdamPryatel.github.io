@@ -37,12 +37,7 @@ header{
 }
 
 header img{
-    -webkit-border-radius: 180px;
-    -moz-border-radius: 180px;
     border-radius: 180px;
-    -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
-    background-clip: padding-box;    
     max-width: 100%;
     height: auto;
 }
