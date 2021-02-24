@@ -43,7 +43,7 @@ header img{
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;    
-    max-width: 100%;
+    max-width: 200px;
     height: auto;
 }
 
