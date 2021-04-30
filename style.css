@@ -174,3 +174,12 @@ nav a:hover{
     text-align: center;
 }
 
+#resumeButton{
+    top: 0;
+    left: 0;
+    background: #39FF14;
+}
+
+a {
+    text-decoration: none;
+}
